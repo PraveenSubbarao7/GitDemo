@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.test.ChromeTest3">
+        <methods>
+          <include name="Test3"/>
+        </methods>
+      </class> <!-- com.test.ChromeTest3 -->
+      <class name="com.test.ChromeTest1">
+        <methods>
+          <include name="stopdocker"/>
+          <include name="startdocker"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.test.ChromeTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
